@@ -1,0 +1,123 @@
+/* 
+  Name: Saksham Chauhan
+  Student ID: 156131211
+  Date: 8/18/2022 */
+
+Body{
+
+    background-image: url(cool-background.png);
+}
+#Title{
+    align-items: left;
+    padding-left: 1%;
+    display: flex;
+    padding: 1%;
+    font-size: 45px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #066280ba;
+    
+}
+
+
+#FirstNameChar , #LastNameChar{
+    color: black;
+    
+}
+
+#FirstnameRest, #LastnameRest{
+    color: white;
+    padding-right: 1%;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    
+    background-color: white;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+
+}
+
+
+#Home{
+    
+    padding-left: 42%;
+    padding-right: 2%;
+
+}
+
+#restBody{
+    color: white;
+    font-size: 70px;
+    padding: 6%;
+}
+
+#button1 {
+    font-size: 45px;
+    background-color: #066280e3; 
+    color: white; 
+    width: 40%;
+    border: 2px solid #013e52;
+}
+#button1:hover {
+    background-color: black;
+    color: white;
+} 
+#info{
+    padding: 3%;
+    background-color: #066280ba;
+
+}
+
+#aboutus{
+    display: flex;
+}
+
+#aboutme, #aboutinfo{
+    padding: 2%;
+    background-color: #066280e3; 
+    color: white; 
+    font-size: 18px;
+    width: 50%;
+}
+
+
+
+#educationHeading{
+    text-align: center;
+}
+
+#eachEducationPanel{
+    display: flex;
+    margin: 1%;
+    font-size: 25px;
+    padding: 1%;
+    background-color: #066280ba;
+    border: 2px solid black ;
+}
+
+#left{
+    padding:1.5%;
+    text-align: center;
+    color: black;
+    border: 0px;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.897);
+    width: 30%;
+}
+
+#right{
+   
+    padding:1.5%;
+    color: black;
+    border: 0px;
+    border-radius: 2px;
+    background-color: #066280ba;
+    width: 70%;
+}
